@@ -11,8 +11,8 @@ import android.renderscript.ScriptIntrinsicBlur;
  * Created by sergiosilvajr on 9/20/16.
  */
 public final class BlurEffect {
-    private static final float BITMAP_SCALE = 0.3f;
-    private static final float BLUR_RADIUS = 25.0f;
+    private static final float BITMAP_SCALE = 0.08f;
+    private static final float BLUR_RADIUS = 4.0f;
 
     public static Bitmap apply(Context context, Bitmap image) {
         int width = Math.round(image.getWidth() * BITMAP_SCALE);
